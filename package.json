@@ -1,0 +1,23 @@
+{
+  "name": "merbuddy",
+  "version": "1.0.0",
+  "description": "Merchant Voice AI Commerce Agent - Customizable Voice AI shopping assistant for e-commerce merchants",
+  "private": true,
+  "scripts": {
+    "setup": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "voice-ai",
+    "gemini-api",
+    "shopify-graphql",
+    "conversational-ai",
+    "hinglish",
+    "ecommerce"
+  ],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}
